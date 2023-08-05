@@ -16,8 +16,8 @@ const PapersPage = () => {
             </p>
             <p className="leading-7">
               Heterogeneity has emerged as one of the most profound and
-              challenging characteristics of today's computing paradigms. The
-              impact of heterogeneity on all computing tasks is increasing
+              challenging characteristics of today&#39;s computing paradigms.
+              The impact of heterogeneity on all computing tasks is increasing
               rapidly. Traditional algorithms, programming environments and
               tools designed for legacy homogeneous computing platforms could
               not support the growing diversity in infrastructure and the
