@@ -161,9 +161,10 @@ const PapersPage = () => {
                   EasyChair
                 </a>
                 {". "}
-                In submitting your paper, please select the track "The
+                In submitting your paper, please select the track &#34;The
                 International Workshop on Ideas, Algorithms, Models, Libraries
-                and Tools for Leveraging Heterogeneity in Computing Paradigm"
+                and Tools for Leveraging Heterogeneity in Computing
+                Paradigm&#34;
               </p>
             </div>
             <div>
