@@ -41,6 +41,19 @@ const Sidebar = () => {
             <li>
               <SheetClose asChild>
                 <Link
+                  href="/papers"
+                  className={cn(
+                    "text-muted-foreground transition hover:text-primary w-full",
+                    pathname === "/papers" && "text-primary font-medium"
+                  )}
+                >
+                  Call for Papers
+                </Link>
+              </SheetClose>
+            </li>
+            <li>
+              <SheetClose asChild>
+                <Link
                   href="/committee"
                   className={cn(
                     "text-muted-foreground transition hover:text-primary w-full",
@@ -61,19 +74,6 @@ const Sidebar = () => {
                   )}
                 >
                   Workshop Program
-                </Link>
-              </SheetClose>
-            </li>
-            <li>
-              <SheetClose asChild>
-                <Link
-                  href="/papers"
-                  className={cn(
-                    "text-muted-foreground transition hover:text-primary w-full",
-                    pathname === "/papers" && "text-primary font-medium"
-                  )}
-                >
-                  Call for Papers
                 </Link>
               </SheetClose>
             </li>

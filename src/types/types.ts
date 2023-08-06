@@ -7,4 +7,5 @@ export interface IOrganizersCard {
   mail: string;
   phone?: string;
   mobile?: string;
+  imageUrl: string;
 }

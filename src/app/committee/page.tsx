@@ -5,20 +5,23 @@ import { workshopOrganizers } from "@/data/committee";
 const CommitteePage = () => {
   return (
     <div className="container py-20 mt-10 relative">
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-16">
+        <h2 className="text-center scroll-m-20 text-4xl font-extrabold tracking-tight">
+          Committee
+        </h2>
         <div className="flex flex-col gap-4">
           <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
             Workshop Organizers
           </h2>
           <div className="flex flex-col gap-4">
             <a href="http://iotcloud.iiitkottayam.ac.in" target="_blank">
-              <h3 className="text-lg font-semibold hover:underline underline-offset-2">
+              <h3 className="text-lg font-medium hover:underline underline-offset-2 text-muted-foreground hover:text-primary">
                 IoT Cloud research laboratory, Indian Institute of Information
                 Technology Kottayam
               </h3>
             </a>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {workshopOrganizers.map((organizer, index) => {
                 return <OrganizersCard key={index} {...organizer} />;
               })}

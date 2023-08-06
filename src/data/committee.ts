@@ -10,6 +10,7 @@ export const workshopOrganizers: IOrganizersCard[] = [
     mail: "vengadesh@iiitkottayam.ac.in",
     phone: "0482-2202206",
     mobile: "9944174949",
+    imageUrl: "/assets/members/vengadeswaran.webp",
   },
   {
     name: "Dr Shajulin Benedict",
@@ -20,15 +21,6 @@ export const workshopOrganizers: IOrganizersCard[] = [
     mail: "shajulin@iiitkottayam.ac.in",
     phone: "0482-2202155",
     mobile: "9443543746",
-  },
-  {
-    name: "Lorem ipsum",
-    role: "Assistant Professor",
-    department: "Department of Computer Science and Engineering",
-    lab: "IoT Cloud research laboratory",
-    institute: "Indian Institute of Information Technology Kottayam ",
-    mail: "loremipsum@iiitkottayam.ac.in",
-    phone: "12313233121",
-    mobile: "123123321",
+    imageUrl: "/assets/members/shajulin.webp",
   },
 ];

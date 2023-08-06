@@ -33,6 +33,17 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                href="/papers"
+                className={cn(
+                  "text-muted-foreground transition hover:text-primary",
+                  pathname === "/papers" && "text-primary font-medium"
+                )}
+              >
+                Call for Papers
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/committee"
                 className={cn(
                   "text-muted-foreground transition hover:text-primary",
@@ -51,17 +62,6 @@ const Navbar = () => {
                 )}
               >
                 Workshop Program
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/papers"
-                className={cn(
-                  "text-muted-foreground transition hover:text-primary",
-                  pathname === "/papers" && "text-primary font-medium"
-                )}
-              >
-                Call for Papers
               </Link>
             </li>
           </ul>

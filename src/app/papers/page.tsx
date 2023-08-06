@@ -1,19 +1,34 @@
+import ImportantDatesCard from "@/components/ImportantDatesCard";
+
 const PapersPage = () => {
   return (
-    <div className="container py-20 mt-10 relative">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:place-items-start">
-        <div className="flex flex-col gap-3 col-span-1 lg:col-span-2">
-          <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+    <div className="py-20 mt-10 relative container">
+      <div className="flex flex-col gap-16">
+        <div className="container flex flex-col gap-4 items-center text-center">
+          <h2 className="text-center scroll-m-20 text-4xl font-extrabold tracking-tight">
             Call for Papers
           </h2>
+          <p className="text-xl text-muted-foreground max-w-xl">
+            The International Workshop on Ideas, Algorithms, Models, Libraries
+            and Tools for Leveraging Heterogeneity in Computing Paradigms
+          </p>
+          <p className="text-muted-foreground">
+            In conjunction with{" "}
+            <a
+              href="http://cse.iitm.ac.in/~icdcn2024/"
+              target="_blank"
+              className="underline underline-offset-2 transition text-primary hover:text-muted-foreground"
+            >
+              ICDCN 2024
+            </a>
+          </p>
+        </div>
+
+        <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-2">
-            <p className="leading-7">
-              This workshop is being conducted as a part of the premier
-              international conference ICDCN 2024 and is intended to be a forum
-              for researchers working on algorithms, theoretical models,
-              programming languages, and tools aimed at efficiently solving
-              problems on various heterogeneous computing paradigms.
-            </p>
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              Aim
+            </h3>
             <p className="leading-7">
               Heterogeneity has emerged as one of the most profound and
               challenging characteristics of today&#39;s computing paradigms.
@@ -32,9 +47,12 @@ const PapersPage = () => {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-semibold">
-              Topics to be covered include but are not limited to:
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              Scope
             </h3>
+            <p className="leading-7">
+              Topics to be covered include but are not limited to:
+            </p>
             <ul className="ml-6 list-disc flex flex-col gap-2">
               <li>
                 Performance models and their integration into the design of
@@ -101,46 +119,64 @@ const PapersPage = () => {
               heterogeneous computing platforms.
             </p>
           </div>
-        </div>
-        <div className="flex flex-col gap-3 border p-6 rounded-md bg-background/50">
-          <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-            Timelines for the workshops
-          </h2>
-          <div>
-            <ul className="ml-6 list-disc flex flex-col gap-2">
-              <li>
-                <span className="block text-lg font-semibold">
-                  Opening of Workshop Papers for Acceptance
-                </span>
-                <span className="block leading-7 text-muted-foreground font-medium">
-                  July 23rd, 2023
-                </span>
-              </li>
-              <li>
-                <span className="block text-lg font-semibold">
-                  Deadline for Workshop Papers
-                </span>
-                <span className="block leading-7 text-muted-foreground font-medium">
-                  September 15th, 2023
-                </span>
-              </li>
-              <li>
-                <span className="block text-lg font-semibold">
-                  Decision on Acceptance/Rejection of Workshop Papers
-                </span>
-                <span className="block leading-7 text-muted-foreground font-medium">
-                  October 15th, 2023
-                </span>
-              </li>
-              <li>
-                <span className="block text-lg font-semibold">
-                  Camera-Ready Papers Version Due
-                </span>
-                <span className="block leading-7 text-muted-foreground font-medium">
-                  October 31st, 2023
-                </span>
-              </li>
-            </ul>
+          <div className="flex flex-col gap-4 items-start">
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              Important Dates
+            </h3>
+            <ImportantDatesCard />
+          </div>
+
+          <div className="flex flex-col gap-4 items-start">
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              Submission Guidelines
+            </h3>
+            <div>
+              <h4 className="scroll-m-20 text-lg font-semibold tracking-tight">
+                Paper length and format
+              </h4>
+              <p className="leading-7 mt-1">
+                The workshop papers must be no more than 6 pages, including
+                title, abstract, figures and references, and not published or
+                under review elsewhere. Also, papers must be formatted with{" "}
+                <a
+                  href="https://www.acm.org/publications/proceedings-template"
+                  target="_blank"
+                  className="underline underline-offset-2 transition text-muted-foreground hover:text-primary"
+                >
+                  ACM conference proceedings template
+                </a>
+              </p>
+            </div>
+            <div>
+              <h4 className="scroll-m-20 text-lg font-semibold tracking-tight">
+                Submission
+              </h4>
+              <p className="leading-7 mt-1">
+                Papers are to be submitted electronically through{" "}
+                <a
+                  href="https://easychair.org/conferences/?conf=icdcn2024"
+                  target="_blank"
+                  className="underline underline-offset-2 transition text-muted-foreground hover:text-primary"
+                >
+                  EasyChair
+                </a>
+                {". "}
+                In submitting your paper, please select the track "The
+                International Workshop on Ideas, Algorithms, Models, Libraries
+                and Tools for Leveraging Heterogeneity in Computing Paradigm"
+              </p>
+            </div>
+            <div>
+              <h4 className="scroll-m-20 text-lg font-semibold tracking-tight">
+                Registration of accepted workshop papers
+              </h4>
+              <p className="leading-7 mt-1">
+                For each accepted workshop paper to appear in the ACM digital
+                library, at least one author of the paper must register as a
+                regular registrant even if he/she is a student, and the paper
+                must be presented in the workshop by one of its authors
+              </p>
+            </div>
           </div>
         </div>
       </div>
