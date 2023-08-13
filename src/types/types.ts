@@ -9,3 +9,10 @@ export interface IOrganizersCard {
   mobile?: string;
   imageUrl: string;
 }
+
+export interface IWebTeamCard {
+  name: string;
+  role: string;
+  institute: string;
+  imageUrl: string;
+}

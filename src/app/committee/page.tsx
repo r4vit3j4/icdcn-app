@@ -1,6 +1,7 @@
 "use client";
 import OrganizersCard from "@/components/committee-page/OrganizersCard";
-import { workshopOrganizers } from "@/data/committee";
+import WebTeamCard from "@/components/committee-page/WebTeamCard";
+import { webTeam, workshopOrganizers } from "@/data/committee";
 
 const CommitteePage = () => {
   return (
@@ -34,6 +35,17 @@ const CommitteePage = () => {
           </h2>
           <div>
             <p>will be updated soon...</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4">
+          <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+            Web Team
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {webTeam.map((teamMember, index) => {
+              return <WebTeamCard key={index} {...teamMember} />;
+            })}
           </div>
         </div>
       </div>

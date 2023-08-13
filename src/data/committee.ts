@@ -1,4 +1,4 @@
-import { IOrganizersCard } from "@/types/types";
+import { IOrganizersCard, IWebTeamCard } from "@/types/types";
 
 export const workshopOrganizers: IOrganizersCard[] = [
   {
@@ -6,7 +6,7 @@ export const workshopOrganizers: IOrganizersCard[] = [
     role: "Assistant Professor",
     department: "Department of Computer Science and Engineering",
     lab: "IoT Cloud research laboratory",
-    institute: "Indian Institute of Information Technology Kottayam ",
+    institute: "Indian Institute of Information Technology Kottayam",
     mail: "vengadesh@iiitkottayam.ac.in",
     phone: "0482-2202206",
     mobile: "9944174949",
@@ -17,10 +17,19 @@ export const workshopOrganizers: IOrganizersCard[] = [
     role: "Assistant Professor",
     department: "Department of Computer Science and Engineering",
     lab: "Head, IoT Cloud research laboratory",
-    institute: "Indian Institute of Information Technology Kottayam ",
+    institute: "Indian Institute of Information Technology Kottayam",
     mail: "shajulin@iiitkottayam.ac.in",
     phone: "0482-2202155",
     mobile: "9443543746",
     imageUrl: "/assets/members/shajulin.webp",
+  },
+];
+
+export const webTeam: IWebTeamCard[] = [
+  {
+    name: "Ravi Teja Racharla",
+    institute: "Indian Institute of Information Technology Kottayam",
+    role: "Student",
+    imageUrl: "/assets/webteam/raviteja.webp",
   },
 ];

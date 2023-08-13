@@ -20,12 +20,12 @@ const HomePage = () => {
 
   return (
     <div className="container pt-20 flex flex-col gap-16 relative">
-      <div className="flex flex-col items-center gap-8 text-center pt-20 pb-10 md:pb-20">
-        <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight max-w-5xl lg:text-5xl">
+      <div className="flex flex-col items-center gap-8 text-center pt-10 md:pt-20 pb-10 md:pb-20">
+        <h1 className="scroll-m-20 text-2xl sm:text-3xl font-extrabold tracking-tight max-w-5xl lg:text-5xl">
           The International Workshop on Ideas, Algorithms, Models, Libraries and
           Tools for Leveraging Heterogeneity in Computing Paradigms
         </h1>
-        <p className="text-lg text-muted-foreground">
+        <p className="text-base sm:text-lg text-muted-foreground">
           in conjunction with{" "}
           <a
             href="http://cse.iitm.ac.in/~icdcn2024/"
@@ -36,9 +36,10 @@ const HomePage = () => {
             Networking (ICDCN 2024)
           </a>
         </p>
-        {/* <div>
+        <div className="mt-2">
           <HeroImages />
-        </div> */}
+        </div>
+
         <a href="#intro" onClick={handleScroll} aria-label="scroll-down">
           <ChevronDownCircle className="mt-4 h-7 w-7" />
         </a>
