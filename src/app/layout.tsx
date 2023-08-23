@@ -8,8 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "ICDCN 2024 - The International Workshop on Ideas, Algorithms, Models, Libraries and Tools for Leveraging Heterogeneity in Computing Paradigms",
+  title: "HeteroComp24 - ICDCN 2024",
   description:
     "The International Workshop on Ideas, Algorithms, Models, Libraries and Tools for Leveraging Heterogeneity in Computing Paradigms",
 };

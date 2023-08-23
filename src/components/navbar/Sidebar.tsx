@@ -21,7 +21,7 @@ const Sidebar = () => {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="text-left">ICDCN 2024</SheetTitle>
+          <SheetTitle className="text-left">HeteroComp24</SheetTitle>
         </SheetHeader>
         <div className="mt-10">
           <ul className="flex flex-col gap-4">

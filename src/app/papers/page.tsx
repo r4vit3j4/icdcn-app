@@ -119,14 +119,24 @@ const PapersPage = () => {
               heterogeneous computing platforms.
             </p>
           </div>
-          <div className="flex flex-col gap-4 items-start">
+          <div className="flex flex-col gap-2">
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              Publications
+            </h3>
+            <p className="leading-7">
+              HeteroComp24 proceedings will be published in ACM ICPS along with
+              ICDCN main conference proceedings and will be available through
+              ACM Digital Library.
+            </p>
+          </div>
+          <div className="flex flex-col gap-3 items-start">
             <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
               Important Dates
             </h3>
             <ImportantDatesCard />
           </div>
 
-          <div className="flex flex-col gap-4 items-start">
+          <div className="flex flex-col gap-3 items-start">
             <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
               Submission Guidelines
             </h3>
@@ -154,7 +164,7 @@ const PapersPage = () => {
               <p className="leading-7 mt-1">
                 Papers are to be submitted electronically through{" "}
                 <a
-                  href="https://easychair.org/conferences/?conf=icdcn2024"
+                  href="https://easychair.org/conferences/?conf=heterocomp24"
                   target="_blank"
                   className="underline underline-offset-2 transition text-muted-foreground hover:text-primary"
                 >

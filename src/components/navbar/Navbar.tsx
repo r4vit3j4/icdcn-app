@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between gap-4">
         <div>
           <Link href="/" className="font-semibold">
-            ICDCN 2024
+            HeteroComp24
           </Link>
         </div>
         <div className="md:hidden flex items-center">

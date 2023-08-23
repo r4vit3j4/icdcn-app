@@ -20,11 +20,15 @@ const HomePage = () => {
 
   return (
     <div className="container pt-20 flex flex-col gap-16 relative">
-      <div className="flex flex-col items-center gap-8 text-center pt-10 md:pt-20 pb-10 md:pb-20">
-        <h1 className="scroll-m-20 text-2xl sm:text-3xl font-extrabold tracking-tight max-w-5xl lg:text-5xl">
+      <div className="flex flex-col items-center gap-8 text-center pt-10 md:pt-10 pb-10 md:pb-20">
+        <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight max-w-5xl lg:text-5xl">
+          HeteroComp24
+        </h1>
+        <h2 className="scroll-m-20 text-xl sm:text-2xl font-bold tracking-tight max-w-5xl lg:text-4xl">
           The International Workshop on Ideas, Algorithms, Models, Libraries and
           Tools for Leveraging Heterogeneity in Computing Paradigms
-        </h1>
+        </h2>
+
         <p className="text-base sm:text-lg text-muted-foreground">
           in conjunction with{" "}
           <a
@@ -32,16 +36,19 @@ const HomePage = () => {
             className="font-medium text-primary underline underline-offset-4 hover:text-muted-foreground"
             target="_blank"
           >
-            The 25th International Conference on Distributed Computing &
+            The 25th ACM International Conference on Distributed Computing &
             Networking (ICDCN 2024)
           </a>
         </p>
-        <div className="mt-2">
+        <p className="text-base sm:text-lg text-muted-foreground">
+          Venue: IIT Madras, 4-7th January 2024
+        </p>
+        <div>
           <HeroImages />
         </div>
 
         <a href="#intro" onClick={handleScroll} aria-label="scroll-down">
-          <ChevronDownCircle className="mt-4 h-7 w-7" />
+          <ChevronDownCircle className="mt-2 h-7 w-7" />
         </a>
       </div>
 
@@ -54,9 +61,11 @@ const HomePage = () => {
             The aim of this workshop is intended to be a forum for researchers
             working on algorithms, theoretical models, programming languages,
             and tools aimed at efficiently solving problems on various
-            heterogeneous computing paradigms such as cluster computing, grid
-            computing, peer-to-peer computing, cloud computing, edge computing,
-            and fog computing.
+            heterogeneous computing paradigms such as{" "}
+            <span className="font-semibold">
+              Cluster computing, Grid computing, Peer-to-Peer computing, Cloud
+              computing, Edge computing, and Fog computing.
+            </span>
           </p>
         </div>
       </div>

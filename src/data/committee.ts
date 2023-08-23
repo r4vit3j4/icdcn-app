@@ -30,6 +30,12 @@ export const webTeam: IWebTeamCard[] = [
     name: "Ravi Teja Racharla",
     institute: "Indian Institute of Information Technology Kottayam",
     role: "Student",
-    imageUrl: "/assets/webteam/raviteja.webp",
+    imageUrl: "/assets/webteam/ravi.webp",
+  },
+  {
+    name: "Shashank Upadhyay",
+    institute: "Indian Institute of Information Technology Kottayam",
+    role: "Student",
+    imageUrl: "/assets/webteam/shashank-upadhyay.webp",
   },
 ];

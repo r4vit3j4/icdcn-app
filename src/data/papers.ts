@@ -1,11 +1,11 @@
 export const importantDates = [
   {
-    title: "Opening of Workshop Papers for Acceptance",
+    title: "Opening for Submission",
     date: "August 11th, 2023",
   },
   {
     title: "Deadline for Workshop Papers",
-    date: "September 15th, 2023",
+    date: "September 30th, 2023",
   },
   {
     title: "Decision on Acceptance/Rejection of the Workshop Papers",
